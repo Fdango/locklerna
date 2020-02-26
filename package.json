@@ -2,7 +2,13 @@
   "name": "root",
   "private": true,
   "devDependencies": {
-    "lerna": "^3.20.2"
+    "cz-conventional-changelog": "^3.1.0",
+    "lerna": "^3.20.2",
+    "lerna-changelog": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fdango/locklerna"
   },
   "changelog": {
     "labels": {
@@ -12,7 +18,10 @@
       "internal": ":house: Internal",
       "breaking": ":boom: Breaking Change"
     }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
-
-  
 }
