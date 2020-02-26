@@ -10,5 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "cross-env": "^7.0.0"
-  }
+  },
+  "gitHead": "3f36c54fb936ec6fa94853537ed00a793da247b0"
 }
